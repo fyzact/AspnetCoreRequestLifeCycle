@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\feyyaz.acet\\OneDrive - DRD\\Masaustu\\AspNetCoreRequesLifeCycle\\AspNetCoreRequesLifeCycle.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\feyyaz.acet\\OneDrive - DRD\\Masaustu\\AspNetCoreRequesLifeCycle\\AspNetCoreRequesLifeCycle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\feyyaz.acet\\OneDrive - DRD\\Masaustu\\AspNetCoreRequesLifeCycle\\AspNetCoreRequesLifeCycle.csproj",
+        "projectName": "AspNetCoreRequesLifeCycle",
+        "projectPath": "C:\\Users\\feyyaz.acet\\OneDrive - DRD\\Masaustu\\AspNetCoreRequesLifeCycle\\AspNetCoreRequesLifeCycle.csproj",
+        "packagesPath": "C:\\Users\\feyyaz.acet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\feyyaz.acet\\OneDrive - DRD\\Masaustu\\AspNetCoreRequesLifeCycle\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\feyyaz.acet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.drd.com.tr/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
